@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.definition {
+  margin-bottom: 20px;
+}
+.term {
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+section {
+  border: solid 1px black;
+  width: 100%;
+  height: 500px;
+}
+
+section h2 {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  margin-left: 40px;
+}
+
+.resources {
+  margin-left: 20px;
+}
+
+section .resources {
+  border: solid 1px black;
+}
+
+section .resources ul {
+  list-style: none;
+}
