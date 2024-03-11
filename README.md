@@ -15,3 +15,7 @@ query_string: "css sticky",
 
 query_string: "create new line css",
 [stackoverflow - ](https://stackoverflow.com/questions/2703601/how-to-line-break-from-css-without-using-br)
+
+query_string: "css before html element"
+[stackoverflow@erik-martino Using :before and :after CSS selector to insert HTML [duplicate]](https://stackoverflow.com/questions/5865937/using-before-and-after-css-selector-to-insert-html)
+[](https://stackoverflow.com/users/679892/erik-martino)

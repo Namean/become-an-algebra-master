@@ -105,10 +105,26 @@
         top: 50px;
         /* padding-top: 40px; */
       }
+
+      .content {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .main-content {
+        width: 85%;
+      }
+
+      .sitcky-nav {
+        width: 200px;
+        height: 600px;
+      }
     </style>
   </head>
   <body>
-    <h2 style="white-space: nowrap">Become an Algebra master</h2>
+    <h2 style="white-space: nowrap">
+      <a href="../../index.html">Become an Algebra master</a>
+    </h2>
     <header class="main-header">
       <div class="wrapper">
         <!-- prettier-ignore -->
@@ -126,32 +142,41 @@
       <hr style="width: 100%" />
     </header>
     <div class="content">
-      <p>
-        Variables are symbols for numbers that we don't know yet. Denoted with
-        letters at the end of the alphabet such as x, y, and z.
-      </p>
+      <div class="sticky-nav">
+        <nav>
+          <li>lorem</li>
+          <li>ipsum</li>
+          <li>dolor</li>
+        </nav>
+      </div>
+      <div class="main-content">
+        <p>
+          Variables are symbols for numbers that we don't know yet. Denoted with
+          letters at the end of the alphabet such as x, y, and z.
+        </p>
 
-      <p>
-        constants are numbers on their own. for example the simple statement
-      </p>
-      <pre>
-        <code>
-            3 + 2 = 5
-        </code>
-      </pre>
-      <blockquote>
-        <i
-          >In the above equation 2, 3, and 5 are constants. But what if we
-          replace the 3 with an x?</i
-        >
-      </blockquote>
-      <pre>
-        <code>
-            x + 2 = 5
-        </code>
-      </pre>
-      <p>In the above equation x is a varaible.</p>
-      <h3>A little more vocabulary</h3>
+        <p>
+          constants are numbers on their own. for example the simple statement
+        </p>
+        <pre>
+          <code>
+              3 + 2 = 5
+          </code>
+        </pre>
+        <blockquote>
+          <i
+            >In the above equation 2, 3, and 5 are constants. But what if we
+            replace the 3 with an x?</i
+          >
+        </blockquote>
+        <pre>
+          <code>
+              x + 2 = 5
+          </code>
+        </pre>
+        <p>In the above equation x is a varaible.</p>
+        <h3>A little more vocabulary</h3>
+      </div>
     </div>
   </body>
 </html>

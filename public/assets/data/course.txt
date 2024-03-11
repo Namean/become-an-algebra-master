@@ -17,5 +17,5 @@ Algebra 2 - Advanced Equations
 Algebra 2 - Systems of Equations
 Algebra 2 - graphing
 Algebra 2 - Manipulating Functions
-Algebra 2 - Exponentail and logrithmic Functions
+Algebra 2 - Exponential and logrithmic Functions
 Final exam and wrap-up

@@ -10,6 +10,23 @@
         list-style-type: none;
         margin-right: 40px;
       }
+
+      .media {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+      }
+
+      .media section {
+        /* margin-left: 60px; */
+        width: 33%;
+        border: solid 1px black;
+        height: 500px;
+      }
+
+      .media section h3 {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -28,5 +45,17 @@
         </div>
       </nav>
     </header>
+
+    <div class="media">
+      <section class="readings">
+        <h3>Readings</h3>
+      </section>
+      <section class="videos">
+        <h3>Videos</h3>
+      </section>
+      <section class="quizes">
+        <h3>Quizes</h3>
+      </section>
+    </div>
   </body>
 </html>
