@@ -1,0 +1,21 @@
+introduction to Equations
+RESOURCE: Quiz solutions for this section
+Evaluating expressions (reading, 32), (video, 33), (quiz, 12)
+inverse operations (reading, 34), (video, 35), (quiz, 13)
+simple equations 
+
+
+
+cost = [5_000, 6_000, 7_500, 5_000]
+
+
+data = Object.values(document.getElementsByClassName('css-eit09k e6tlfg22'))
+
+let buffer = [];
+for (let i = 0; i < indexes.length; i++) {
+    buffer.push(data[indexes[i]]);
+}
+
+indexes = data.map((x, index) => x.innerText.includes("Oran") ? index : false).filter(y => typeof(y) == 'number')
+
+4512 Hillside ave 
