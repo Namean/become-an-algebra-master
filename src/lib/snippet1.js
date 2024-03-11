@@ -27,6 +27,6 @@ let skelitizedArray = stringArray.map((x) => {
 });
 
 let anchorsArray = skelitizedArray.map((x) => wrapHTML(x, "a", "src"));
-let result = anchorsArray.map((x) => wrapHTML(x, "li"));
+let result = anchorsArray.map((x) => console.log(wrapHTML(x, "li")));
 
-console.log(result[0].split(`src=""`));
+console.log(result);
