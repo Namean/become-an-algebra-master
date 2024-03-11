@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../../../public/assets/css/style.css"
     <title>Introduction to operations</title>
     <style>
       * {
@@ -116,16 +117,31 @@
       }
 
       .sitcky-nav {
-        width: 200px;
+        width: 100%;
         height: 600px;
+        border: solid 1px black;
+
+        position: -webkit-sticky;
+        position: sticky;
+        top: 200px;
+      }
+
+      .sticky-nav nav {
+        
+      }
+
+      .sticky-nav nav li {
+        color: red;
+        /* border: solid 1px black; */
+        margin-left: 50%;
       }
     </style>
   </head>
   <body>
     <h2 style="white-space: nowrap">
-      <a href="../../index.html">Become an Algebra master</a>
+      <a href="/public/pages/index.html">Become an Algebra master</a>
     </h2>
-    <header class="main-header">
+    <header class="main-header" style="z-index: 1">
       <div class="wrapper">
         <!-- prettier-ignore -->
         <h1>                              Section 2: 
@@ -141,14 +157,41 @@
       </nav>
       <hr style="width: 100%" />
     </header>
-    <div class="content">
-      <div class="sticky-nav">
-        <nav>
-          <li>lorem</li>
-          <li>ipsum</li>
-          <li>dolor</li>
-        </nav>
+
+    <div class="main-header">
+      <div class="wrapper">
+       
       </div>
+
+      <nav>
+        <div style="display: flex; flex-direction: row" class="flex-container">
+          <li>home</li>
+          <li>prev: HOME</li>
+          <li><a href="../pages/variables.html">next: Variables</a></li>
+        </div>
+      </nav>
+      <hr style="width: 100%" />
+    </div>
+
+
+    <div class="content">
+      <header class="main-header" style="width: 25%; height: auto;">
+        <div class="wrapper">
+          <!-- prettier-ignore -->
+          <p>lorem</p>
+          <p>ipsum</p>
+          <p>dolor</p>
+        </div>
+  
+        <nav>
+          <div style="display: flex; flex-direction: row;" class="flex-container">
+            <li>home</li>
+            <li>prev: HOME</li>
+            <li><a href="../pages/variables.html">next: Variables</a></li>
+          </div>
+        </nav>
+        <hr style="width: 100%" />
+      </header>
       <div class="main-content">
         <p>
           Variables are symbols for numbers that we don't know yet. Denoted with
