@@ -1,0 +1,35 @@
+.sitcky-nav {
+  width: 100%;
+  height: 600px;
+  border: solid 1px black;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 200px;
+}
+
+.sticky-nav nav {
+  color: #000;
+}
+
+.sticky-nav nav li {
+  color: red;
+  /* border: solid 1px black; */
+  margin-left: 50%;
+}
+
+.definition {
+  margin-bottom: 20px;
+}
+.term {
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.resources {
+  margin-left: 20px;
+}

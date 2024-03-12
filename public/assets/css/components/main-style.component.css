@@ -1,0 +1,25 @@
+/* 
+
+main-header
+wrapper
+
+
+
+*/
+
+.main-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  margin: 0 auto;
+  border: solid 1px black;
+  border-radius: 4px;
+  height: 200px;
+  /* border-bottom: solid 4px black; */
+}
+
+.wrapper {
+  position: sticky;
+  /* top: 0px; */
+}

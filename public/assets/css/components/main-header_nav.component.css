@@ -1,0 +1,11 @@
+/* main-header_nav.component.css */
+.main-header nav {
+  /* border: solid 4px red; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  position: relative;
+  /* margin-left: 20px; */
+  top: 50px;
+  /* padding-top: 40px; */
+}
