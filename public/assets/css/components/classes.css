@@ -18,6 +18,19 @@
   /* background-color: #000; */
 }
 
+.main-header2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 250px;
+  background-color: #fff;
+  /* margin: 0 auto; */
+  border: solid 4px black;
+  border-radius: 4px;
+  height: 900px;
+  /* border-bottom: solid 4px black; */
+  /* background-color: #000; */
+}
+
 .main-header nav {
   /* border: solid 4px red; */
   display: flex;
