@@ -1,6 +1,33 @@
+#!/bin/env node
 // snippet2.js
 
 const log = console.log;
+
+class customElement {
+  constructor() {}
+
+  // methods
+
+  getTagName() {
+    return this.tagName;
+  }
+  setTagName(tagName) {
+    this.tagName = tagName;
+  }
+  getInnerText() {
+    return this.innerText;
+  }
+  setInnerText(innerText) {
+    this.innerText = innerText;
+  }
+  getAttributes() {
+    return this.attributes;
+  }
+  setAttributes(attributes) {
+    this.attributes = attributes;
+  }
+  getAttributesString() {}
+}
 
 let a = {
   tagName: "a",
@@ -26,10 +53,10 @@ let a = {
     return attributeStrings;
   },
   toString: function () {
-    const { tagName, innerText } = this;
+    const { tagName, innerText, pizza = "french fry" } = this;
     const attributeString = this.getAttributesStrings().join(" ");
 
-    console.log("\n");
+    log("\n");
     log(
       `<${tagName} ${attributeString}>${innerText.toLowerCase()}</${tagName}>`
     );
