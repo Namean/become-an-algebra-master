@@ -49,15 +49,16 @@ let section1 = {
   completion_date: "",
 };
 
-function main() {
-  const course = {
-    title: "Become an Algebra Master",
-    course_url: "https://www.udemy.com/course/integralcalc-algebra/",
-    instructor: "Krista King",
-  };
+// function main() {
+//   const course = {
+//     title: "Become an Algebra Master",
+//     course_url: "https://www.udemy.com/course/integralcalc-algebra/",
+//     instructor: "Krista King",
+//   };
 
-  document.querySelector("h1").innerText = course.title;
-  document.querySelector("h2").innerText = `created by ${course.instructor}`;
-}
+//   document.querySelector("h1").innerText = course.title;
+//   document.querySelector("h2").innerText = `created by ${course.instructor}`;
+// }
 
-main();
+// main();
+console.log("Hello from TypeScript!");
