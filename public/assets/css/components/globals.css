@@ -12,12 +12,9 @@ h1 {
 
 h2 {
   position: relative;
-  left: 0px;
-  margin: 0;
   margin-bottom: 20px;
-}
-
-h3 {
+  /* font-size: 250%; */
+  font-weight: 200;
 }
 
 /* h3::after {
@@ -28,12 +25,8 @@ h1,
 h2,
 h3 {
   /* text-align: center; */
-  font-weight: 200;
+  /* font-weight: 200; */
   /* text-decoration: underline purple 4px; */
-}
-
-h2,
-h3 {
 }
 
 header h1 {
